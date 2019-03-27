@@ -5,4 +5,4 @@ exports.handler = async event => {
     statusCode: 200,
     body: `Hello ${WHO_AM_I}!`
   };
-}
+};
