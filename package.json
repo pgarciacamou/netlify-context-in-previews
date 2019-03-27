@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/pgarciacamou/netlify-context-in-previews/issues"
   },
-  "homepage": "https://github.com/pgarciacamou/netlify-context-in-previews#readme"
+  "homepage": "https://github.com/pgarciacamou/netlify-context-in-previews#readme",
+  "devDependencies": {
+    "netlify-lambda": "^1.4.3"
+  }
 }
