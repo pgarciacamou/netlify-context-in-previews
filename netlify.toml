@@ -1,0 +1,9 @@
+[build]
+  command = "npm run build"
+  functions = ".netlify/functions/"
+
+[context.production.environment]
+  WHO_AM_I = "World"
+
+[context.deploy-preview.environment]
+  WHO_AM_I = "Developer"

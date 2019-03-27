@@ -1,0 +1,20 @@
+{
+  "name": "netlify-context-in-previews",
+  "version": "1.0.0",
+  "description": "This repo is created to demonstrate that the env variables in netlify.toml are not working correctly for deploy-previews.",
+  "main": "index.js",
+  "scripts": {
+    "build": "netlify-lambda build functions",
+    "start": "netlify-lambda serve functions"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pgarciacamou/netlify-context-in-previews.git"
+  },
+  "author": "pgarciacamou",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pgarciacamou/netlify-context-in-previews/issues"
+  },
+  "homepage": "https://github.com/pgarciacamou/netlify-context-in-previews#readme"
+}
