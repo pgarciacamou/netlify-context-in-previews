@@ -4,7 +4,8 @@
   "description": "This repo is created to demonstrate that the env variables in netlify.toml are not working correctly for deploy-previews.",
   "main": "index.js",
   "scripts": {
-    "build": "netlify-lambda build functions",
+    "build": "env-cmd .env.production netlify-lambda build functions",
+    "build:staging": "env-cmd .env.staging netlify-lambda build functions",
     "start": "netlify-lambda serve functions"
   },
   "repository": {
@@ -19,5 +20,8 @@
   "homepage": "https://github.com/pgarciacamou/netlify-context-in-previews#readme",
   "devDependencies": {
     "netlify-lambda": "^1.4.3"
+  },
+  "dependencies": {
+    "env-cmd": "^8.0.2"
   }
 }
