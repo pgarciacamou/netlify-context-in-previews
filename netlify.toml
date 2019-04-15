@@ -5,5 +5,8 @@
 [context.production.environment]
   WHO_AM_I = "World"
 
+[context.deploy-preview]
+  command = "WHO_AM_I=DeployPreview npm run build"
+
 [context.deploy-preview.environment]
   WHO_AM_I = "Developer"
